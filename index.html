@@ -3,11 +3,59 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FEDF Exercise 1</title>
-  <link rel="stylesheet" href="style.css">
+  <title>FEDF Exercise 2 - Navbar Feature</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+      background-color: #333;
+      padding: 10px 0;
+    }
+
+    nav ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      margin: 0 20px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    h1 {
+      text-align: center;
+      margin-top: 50px;
+      color: #444;
+    }
+  </style>
 </head>
 <body>
-  <h1>Hello Front-End Development Frameworks!</h1>
-  <script src="script.js"></script>
+  <!-- Navbar Section -->
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <h1>Welcome to My FEDF Project!</h1>
+  <p style="text-align:center;">This page now includes a responsive navigation bar.</p>
 </body>
 </html>
